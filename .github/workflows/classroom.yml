@@ -14,8 +14,8 @@
               apt-get: libgmp-dev
               # brew: ...
           - name: Checkout repository
-            uses: actions/checkout@v2
-          - uses: actions/setup-haskell@v1.1
+            uses: actions/checkout@v3
+          - uses: haskell/actions/setup@v2
             with:
               # ghc-version: '8.10.1' # Exact version of ghc to use
               # cabal-version: 'latest'. Omitted, but defalts to 'latest'
